@@ -22,7 +22,7 @@ class SignUpActivity : AppCompatActivity() {
         signUpBtn = findViewById(R.id.signupBtn)
 
         signUpBtn.setOnClickListener{
-            createUser()
+
         }
 
 
