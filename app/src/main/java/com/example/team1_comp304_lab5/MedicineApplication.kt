@@ -3,7 +3,6 @@ import android.app.Application
 
 class MedicineApplication: Application() {
 
-
     val repository by lazy { MedicineRepository(MedicineDao) }
 
 

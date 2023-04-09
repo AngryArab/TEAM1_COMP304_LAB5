@@ -13,13 +13,13 @@
 
     <EditText
         android:layout_gravity="center"
-        android:id="@+id/et_username"
+        android:id="@+id/et_emailsignup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:layout_marginTop="10dp"
         android:inputType="textPersonName"
-        android:text="Username" />
+        android:text="enter email" />
 
     <EditText
         android:id="@+id/et_password"

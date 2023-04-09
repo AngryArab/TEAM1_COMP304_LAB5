@@ -58,33 +58,21 @@ object MedicineDao {
 
         }
 
-        fun update(medicine : Medicine){
-
-            myRef.child(medicine.name!!).setValue(medicine)
+    }
 
 
-        }
 
+    fun update(medicine : Medicine){
 
-        fun delete(medicine : Medicine){
-            myRef.child(medicine.name!!).removeValue()
-        }
-
+        myRef.child(medicine.name!!).setValue(medicine)
 
 
     }
 
 
-
-
-
-
-
-
-
-
-
-
+    fun delete(medicine : Medicine){
+        myRef.child(medicine.name!!).removeValue()
+    }
 
 
 

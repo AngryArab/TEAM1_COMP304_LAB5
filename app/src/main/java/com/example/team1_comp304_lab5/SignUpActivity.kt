@@ -7,7 +7,7 @@ import android.widget.EditText
 
 class SignUpActivity : AppCompatActivity() {
 
-    private lateinit var etUsername : EditText
+    private lateinit var etemail : EditText
     private lateinit var etPassword : EditText
     private lateinit var signUpBtn : Button
 
@@ -17,7 +17,7 @@ class SignUpActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_up)
 
-        etUsername = findViewById(R.id.et_username)
+        etemail = findViewById(R.id.et_emailsignup)
         etPassword = findViewById(R.id.et_password)
         signUpBtn = findViewById(R.id.signupBtn)
 
