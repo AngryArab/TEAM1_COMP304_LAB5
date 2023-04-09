@@ -11,7 +11,9 @@ class MedicineActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_medicine)
 
+        //not sure if we're setting up medicine application on here or on the repo
 
+        //go to login activity line   63 to change where it inflates
 
 
 
