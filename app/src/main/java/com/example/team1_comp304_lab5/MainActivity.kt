@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         myRef.setValue("Hello, yhhh!")
         myRef.push().setValue("Hello moezbi")
 
-        newRef.push().setValue("new ref testestest")
+        newRef.push().setValue("new ref testet")
 
         // Read from the database
         myRef.addValueEventListener(object: ValueEventListener {

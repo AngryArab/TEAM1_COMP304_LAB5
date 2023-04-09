@@ -7,33 +7,33 @@
     tools:context=".LogInActivity">
 
     <Button
-        android:id="@+id/signin_btn"
+        android:id="@+id/loginBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="log in"
-        tools:layout_editor_absoluteX="164dp"
-        tools:layout_editor_absoluteY="404dp"
+        android:text="Log in"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="467dp"
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/signin_username"
+        android:id="@+id/et_loginusername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Enter sign in name"
-        tools:layout_editor_absoluteX="117dp"
-        tools:layout_editor_absoluteY="173dp"
+        android:text="enter username"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="187dp"
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/et_loginpassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Enter Password"
-        tools:layout_editor_absoluteX="119dp"
-        tools:layout_editor_absoluteY="285dp"
+        android:text="Name"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="330dp"
         tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
